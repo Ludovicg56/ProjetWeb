@@ -1,0 +1,50 @@
+/* Style pour gt_mysql */ 
+
+/*******************  styles généraux *******************/
+.textGras {
+    font-weight: bold;
+}
+
+#titre{
+    color: #900;
+    margin-top: -10px;
+}
+
+.centrer{
+    text-align: center;
+    clear : both;
+    margin-top : 100px;
+    color : #777;
+}
+
+
+/*******************  styles balises *******************/
+nav {
+    margin-top: 15%;
+}
+
+nav a{
+    color: #900;
+    text-decoration: none;
+}
+
+footer{
+    clear: both;
+    color: #333;;
+    width: 80%;
+    margin: 0 auto;
+    text-align : center;
+    padding-right: 15%;
+    padding-top: 1%;
+}
+
+
+/*******************  styles couleurs *******************/
+
+.txtRouge{
+    color :#900;
+}
+
+.txtBleu{
+    color :#007bff;
+}
