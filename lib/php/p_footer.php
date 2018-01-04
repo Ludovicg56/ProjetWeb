@@ -1,3 +1,3 @@
 <div id="ok" class="centrer class">
-    Editeur responsable Talki_Mayweather@TMT-boxing.com
+    Editeur responsable Ludovic.grolet@Stance.com
 </div>

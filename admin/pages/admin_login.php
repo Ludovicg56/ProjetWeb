@@ -20,18 +20,17 @@ if (isset($_POST['submit_login'])) {
             <h2 id="etitres"><div class="col-sm-offset-1 txt150 txtGras">Connexion Administrateur<br/><br/></div></h2>
         </div>
         <div class="row">
-            <div class="col-sm-2 txtRouge txtGras">Login : </div>
+            <div class="col-sm-4 txtRouge txtGras" style="text-align:right;">Login : </div>
             <div class="col-sm-4"><input type="text" id="login_" name="login" /></div><br/><br/>
         </div>
         <div class="row">
-            <div class="col-sm-2 txtRouge txtGras">Mot de passe :</div>
+            <div class="col-sm-4 txtRouge txtGras" style="text-align:right;">Mot de passe :</div>
             <div class="col-sm-4"><input type="password" id="password_" name="password" /></div>
         </div>
-        <div class="row">
-            <div class="col-sm-4"><br/><br/>
-                <input type="submit" class="btn" name="submit_login" id="submit_login_" value="Login" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="button" class="btn" id="Retour" value="Retour" onclick="document.location.href='http://localhost/Boxe1/index.php?page=accueil.php';" />
+        <br/><br/>     
+            <div>
+                <input type="submit" class="btn" name="submit_login" id="submit_login_" value="Login" style="width: 200px; margin-left: 12%"/>
+                <input type="button" class="btn" id="Retour" value="Retour" style="width: 200px; margin-left: 12%" onclick="document.location.href='http://localhost/chaussettes_king/index.php?page=accueil.php';" /> 
                 
-            </div>
-    </form> 
-</div>
+            </div>          
+    </form>

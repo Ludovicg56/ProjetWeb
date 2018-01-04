@@ -1,4 +1,4 @@
-<h2 id="titres">Le shop en ligne du Mayweather Boxing Club !</h2><br /><br />
+<h2 id="titres">Liste des produits Stance Socks</h2><br /><br />
 <?php
 
 $types = new Type_tmtDB($cnx);
@@ -15,8 +15,8 @@ if(isset($_GET['choix_type'])){
 <div class="container">
     <form action="<?php print $_SERVER['PHP_SELF'];?>" method="get">
     <div class="row">
-        <div class="col-sm-2">
-            <h5 id="produit"><span class="txtGras">Nos produits&nbsp;:</span><h5/>
+        <div class="col-sm-3">
+            <h5 id="produit"><span class="txtGras">Type de chaussettes&nbsp;:</span><h5/>
         </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div class="col-sm-3">
             <select name="id_tmt_type_produit" id="id_tmt_type_produit">

@@ -61,8 +61,8 @@ $(document).ready(function () {
 $(document).ready(function(){
     
     $("#gt_carousel").carousel({
-        interval:1500,
-        pause:false
+        interval:500,
+        pause:true
     });
     
     //Traitement direct de la liste deroulante

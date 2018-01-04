@@ -20,7 +20,6 @@ session_start();
         <script src="admin/lib/js/gt_function.js"></script>
         <script src="admin/lib/js/gt_functionval.js"></script>
         <link rel="stylesheet" type="text/css" href="admin/lib/css/style_gt_mysql.css">
-        <script src="admin/lib/js/jquery-validation-1/dist/jquery.validate.js"></script>
         <script src="admin/lib/js/gt_functionAjax.js"></script>
         
     </head>
@@ -28,7 +27,7 @@ session_start();
         
         <div class="container">
             <header>
-                <img class="stade" src="admin/images/gt_bannieres.jpg" alt="Berlioz"/>
+                <img class="stade" src="admin/images/gt_bannier.png" alt="Berlioz"/>
             </header>
         </div>
         <div class="container">

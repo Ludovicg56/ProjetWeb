@@ -6,7 +6,7 @@
 if (!isset($_GET['id']) && !isset($_SESSION['id_commande'])) {
     
     ?>
-    <p><h4 id="txtw">Pour commander, Rendez-sur notre page Catalogue <input type="button" class="btn" id="ici" value="ICI" onclick="document.location.href='http://localhost/Boxe1/index.php?page=catalogue.php';" /></h4></p>
+<p><h4 id="txtw">Pour commander, Rendez-sur notre page Catalogue <input type="button" class="btn" id="ici" value="ICI" onclick="document.location.href='http://localhost/chaussettes_king/index.php?page=catalogue.php';" /></h4></p>
     <?php
 } else if (isset($_GET['id'])) {
     $_SESSION['id_commande'] = $_GET['id'];
