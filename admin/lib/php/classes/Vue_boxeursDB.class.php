@@ -8,7 +8,7 @@ class Vue_boxeursDB {
     //liste des categorie de poids correspondant au choix du type dans liste déroulante
     function getVue_boxeursType($id){
          try {            
-            $query = "SELECT * FROM VUE_BOXEURS where ID_POIDS=:id_poids";
+            $query = "SELECT * FROM vue_boxeurs where ID_POIDS=:id_poids";
             $resultset = $this->_db->prepare($query);  
             $resultset->bindValue(':id_poids',$id);
             $resultset->execute();
@@ -32,7 +32,7 @@ class Vue_boxeursDB {
 
     function getVue_boxeurs(){
          try {
-            $query = "SELECT * FROM VUE_BOXEURS order by POIDS,NOM";
+            $query = "SELECT * FROM vue_boxeurs order by POIDS,NOM";
             $resultset = $this->_db->prepare($query);  
             $resultset->execute();
             $data = $resultset->fetchAll();
@@ -54,7 +54,7 @@ class Vue_boxeursDB {
     
     function getVue_boxeursProduit($id){
          try {            
-            $query = "SELECT * FROM VUE_BOXEURS where id_boxeurs=:id_boxeurs";
+            $query = "SELECT * FROM vue_boxeurs where id_boxeurs=:id_boxeurs";
             $resultset = $this->_db->prepare($query);  
             $resultset->bindValue(':id_boxeurs',$id);
             $resultset->execute();
