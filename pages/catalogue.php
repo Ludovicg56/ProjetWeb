@@ -83,7 +83,7 @@ if(isset($_GET['choix_type'])){
                         
                            
                                 <br/>
-                                    <a href="index.php?page=commande.php&id=<?php print $liste[$i]['ID_TMT_PRODUIT'] ?>"/>
+                                <a style="margin-left: 27%" href="index.php?page=commande.php&id=<?php print $liste[$i]['ID_TMT_PRODUIT'] ?>"/>
                                         Commander
                                     </a>    
                                 <br/>

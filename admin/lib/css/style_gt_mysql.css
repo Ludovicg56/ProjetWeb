@@ -62,7 +62,7 @@ background-image : radial-gradient(lightgrey,white);
 #boxeurs {
 	margin-left : 25%;
 	text-align:center;
-	color : white;
+	color : #ff6600;
 }
 
 #yesa {
@@ -80,7 +80,7 @@ background-image : radial-gradient(lightgrey,white);
 #yes {
 	margin-left : 325%;
 	text-align:center;
-	color : white;
+	color : #ff6600;
 }
 #yess {
 	
@@ -247,15 +247,12 @@ margin-left: 20%;
     text-align : center;
 	margin-bottom :3%;
 	font-family : Impact;
-	text-shadow : 2px 2px 4px black;
-	font-size : 170%;
-	letter-spacing : 8px;
+	font-size : 120%;
+	letter-spacing : 1px;
 	margin-top : 3%;
-	color : #FFDAB9;	
-
-
+	color : #ff6600;	
 	width : 55%;
-	margin-left : 30%;
+	margin-left : 35%;
 }
 #traitres{
     text-align : center;
@@ -538,13 +535,10 @@ margin-left: 20%;
   text-align: center;
 }
 #menu-accordeon li {
-   background-color:black; 
-   background-image:-webkit-linear-gradient(top, black 0%, grey 100%);
-   background-image: linear-gradient(to bottom, black 0%, grey 100%);
-   border-radius: 6px;
+   background-color: lightgrey; 
+   border-radius: 15px;
    margin-bottom:2px;
-   box-shadow: 3px 3px 3px black;
-   border:solid 1px #333A40
+   border:solid 1px #ff6600;
 }
 #menu-accordeon li li {
    max-height:0;
@@ -559,7 +553,7 @@ margin-left: 20%;
 #menu-accordeon a {
   display:block;
   text-decoration: none;
-  color: red;
+  color: #ff6600;
   font-weight: bold;
   padding: 8px 0;
   font-family: verdana;
