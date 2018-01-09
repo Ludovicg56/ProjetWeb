@@ -119,7 +119,7 @@ if (isset($_SESSION['id_commande'])) {
                         <input type="text" name="localite" id="localite" />
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" style="visibility: hidden">
                     <div class="col-sm-2 txtBleu"><label for="id">Id du produit</label></div>
                     <div class="col-sm-4">
                         <select name="id" id="id">
@@ -127,7 +127,7 @@ if (isset($_SESSION['id_commande'])) {
                             </select>
                     </div>
                 </div>
-                <br/>
+                
                 <div class="row">
                     <div class="col-sm-4">
                                  

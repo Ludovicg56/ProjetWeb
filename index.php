@@ -8,8 +8,7 @@ session_start();
 ?>
 
 <html>
-    <head>
-        <link rel="icon" href="admin/images/tmtlogo.ico"/>        
+    <head>       
         <meta charset:="UTF-8">        
         <title>Stance Socks</title>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -27,7 +26,7 @@ session_start();
         
         <div class="container">
             <header>
-                <img class="stade" src="admin/images/gt_bannier.png" alt="Berlioz"/>
+                <img class="stade"  style="margin-top: 0.5%" src="admin/images/gt_bannier.png" alt="Berlioz"/>
             </header>
         </div>
         <div class="container">

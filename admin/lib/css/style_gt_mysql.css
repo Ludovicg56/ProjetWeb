@@ -68,7 +68,7 @@ background-image : radial-gradient(lightgrey,white);
 #yesa {
 	margin-left : 325%;
 	font-weight:bold;
-	color : #ffd6cc;
+	color : black;
 }
 
 #yesaa {
@@ -90,7 +90,7 @@ background-image : radial-gradient(lightgrey,white);
 #yessa {
 	
 	
-	color : #ff4d4d;
+	color : black;
         font-weight:bold;
 }
 
@@ -307,7 +307,7 @@ margin-left: 20%;
 #titressss{
     
 	
-	color : white;
+	color : black;
 	
 	width : 155%;
 	margin-left : -140%;
@@ -316,7 +316,7 @@ margin-left: 20%;
 #titressssa{
     
 	
-	color :#ff4d4d;
+	color :#ff6600;
 	
 	width : 155%;
 	margin-left : -140%;
@@ -325,7 +325,7 @@ margin-left: 20%;
 #titressssaa{
     
 	
-	color :	 #ff4d4d;
+	color :	 #ff6600;
 	
 	
 	margin-left : 90.5%;
@@ -334,7 +334,7 @@ margin-left: 20%;
 #titresssss{
     
 	
-	color : white;
+	color : black;
 	
 	width : 155%;
 	margin-left : 130%;
@@ -559,11 +559,15 @@ margin-left: 20%;
   font-family: verdana;
   font-size:1.2em
 }
+
+#menu-accordeon a:hover {
+    color: lightgrey;
+}
 #menu-accordeon ul li a, #menu-accordeon li:hover li a {
   font-size:1em
 }
 #menu-accordeon li:hover {
-   background: #729EBF
+   background: #ff6600;
 }
 #menu-accordeon li li:hover {
    background: #999;

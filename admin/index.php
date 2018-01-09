@@ -7,8 +7,7 @@ $cnx = Connexion::getInstance($dsn, $user, $pass);
 ?>
 
 <html>
-    <head>
-        <link rel="icon" href="./images/tmtlogo.ico"/>        
+    <head>       
         <meta charset:="UTF-8">        
         <title>Stance Socks</title>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -26,7 +25,7 @@ $cnx = Connexion::getInstance($dsn, $user, $pass);
         
         <div class="container">
             <header>
-                <img class="stade" src="./images/gt_bannieres.jpg" alt="Berlioz"/>
+                <img class="stade" style="margin-top: 0.5%" src="./images/gt_bannier.png" alt="Berlioz"/>
             </header>
         </div>
         <div class="container">

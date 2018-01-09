@@ -17,17 +17,18 @@
         for($i=0;$i<$nbrCakes;$i++){
     ?>
     <div class="row">
+        
          <h4 id="titressssaa">Produit Command&eacute;&nbsp;:</h4>
          
         <div>
                 <br/>
                 <div class=zoom>
-                <div class=produit>
+                    <div class=produit style="margin-right:15%">
                 <img class="commande" src="./images/<?php print $liste[$i]['IMAGE'];?>" alt="image" />
                 </div>
                 </div>      
              </div>      
-        <div>
+        <div class="col-sm-4">
             
             <h3 id="titressssa">Donn&eacute;es du client :</h3><br/>
             <h5 id="titressss">Nom :&nbsp;<?php print $liste[$i]['NOM_CLIENT'];?></h5>          
@@ -35,15 +36,15 @@
             <h5 id="titressss">Email :&nbsp;<?php print $liste[$i]['EMAIL_CLIENT'];?></h5> 
             <h5 id="titressss">Adresse :&nbsp;<?php print $liste[$i]['RUE_CLIENT'];?>&nbsp;n&deg;&nbsp;<?php print $liste[$i]['NUMERO'];?>,&nbsp;<?php print $liste[$i]['CODEPOSTAL'];?>&nbsp;,<?php print $liste[$i]['LOCALITE'];?></h5>         
             <h5 id="titressss">T&eacute;l&eacute;phone :&nbsp;<?php print $liste[$i]['TELEPHONE'];?></h5>
-            <br/><br/><br/><br/><br/>
-            <h5 id="titresssss">Produit :&nbsp;<?php print $liste[$i]['NOM_PRODUIT'];?></h5>          
-            <h5 id="titresssss">Prix :&nbsp;<?php print $liste[$i]['PRIX_UNITAIRE'];?>$</h5> 
+            <br/><br/><br/>
+            <h5 id="titresssss" style="text-align: left">Produit :&nbsp;<?php print $liste[$i]['NOM_PRODUIT'];?></h5>          
+            <h5 id="titresssss" style="text-align: left">Prix :&nbsp;<?php print $liste[$i]['PRIX_UNITAIRE'];?>$</h5> 
             
             
             
         </div>
         
-    </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </div><br/><br/><br/><br/><br/><br/>
         <?php } ?> 
 </div>
 

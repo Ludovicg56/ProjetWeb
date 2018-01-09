@@ -33,7 +33,7 @@ $texte = $info->getInfoClient("accueil");
     </div>
     
 </div><br /><br /><br />
-<h4 id="atitres" >Suivez - nous sur YouTube <img class="yt" src="admin/images/youtube.png" alt="reseau"/> &nbsp; & Facebook <img  src="admin/images/face.jpg" alt="reseau"/> &nbsp;</h4>
+<h4 id="atitres">Suivez - nous sur YouTube <img class="yt" src="admin/images/youtube.png" alt="reseau"/> &nbsp; & Facebook <img  src="admin/images/face.jpg" alt="reseau"/> &nbsp;</h4>
 <br /><br />
 
 <div id="fb-root"></div>
@@ -45,7 +45,7 @@ $texte = $info->getInfoClient("accueil");
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'))</script>
 <iframe width="560" height="493" src="https://www.youtube.com/embed/N6GHox0_UUo" frameborder="0" allowfullscreen></iframe>
-<div class="fb-page" data-href="https://www.facebook.com/stance/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/stance/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/stance/">Mayweather Promotions</a></blockquote></div>
+<div class="fb-page" data-href="https://www.facebook.com/stance/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/stance/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/stance/">Stance Socks</a></blockquote></div>
 <br /><br /><br />
 <div id="maps">
     <h4 id="atitres" >O&ugrave; situons - nous ?&nbsp;<img class="ytt" src="admin/images/loca.png" alt="reseau"/></h4>

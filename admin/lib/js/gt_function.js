@@ -5,7 +5,7 @@ $(document).ready(function(){
     
     $("#gt_carousel").carousel({
         interval:3500,
-        pause:false
+        pause:true
     });
     
     //Traitement direct de la liste deroulante
